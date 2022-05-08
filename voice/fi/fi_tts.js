@@ -514,7 +514,7 @@ function location_recovered() {
 }
 
 function off_route(dist) {
-	return dictionary["off_route"] + " " + distance(dist, "metrin");
+	return dictionary["off_route"] + " " + distance(dist, "metri");
 }
 
 function back_on_route() {
